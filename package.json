@@ -1,44 +1,25 @@
 {
   "name": "unipublisher-mcp",
   "version": "1.0.0",
-  "description": "Official Model Context Protocol (MCP) server connecting AI agents (Claude Desktop, Cursor) to the UniPublisher desktop publishing workstation for cross-posting across 17+ platforms",
-  "main": "index.js",
+  "private": true,
+  "description": "Documentation for the MCP interface built into the UniPublisher desktop app. Not an installable server.",
   "bin": {
     "unipublisher-mcp": "./bin/cli.js"
-  },
-  "scripts": {
-    "start": "node bin/cli.js",
-    "test": "node bin/cli.js --help"
   },
   "keywords": [
     "mcp",
     "model-context-protocol",
-    "mcp-server",
     "unipublisher",
-    "cross-posting",
-    "multi-platform-publishing",
-    "content-distribution",
-    "markdown-editor",
     "claude-desktop",
     "cursor",
-    "binance-square",
-    "substack",
-    "telegram",
-    "wordpress",
-    "wechat",
-    "social-media-automation",
-    "local-first",
-    "crypto-research",
-    "web3"
+    "cross-posting",
+    "local-first"
   ],
   "author": "UniPublisher",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/santiago0071/unipublisher-mcp.git"
-  },
-  "bugs": {
-    "url": "https://github.com/santiago0071/unipublisher-mcp/issues"
   },
   "homepage": "https://unipublisher.app"
 }
