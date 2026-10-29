@@ -1,6 +1,6 @@
 # UniPublisher MCP
 
-Let AI agents such as Claude Desktop and Cursor ask **[UniPublisher](https://unipublisher.app)** to save drafts or publish articles to your channels — with you approving every request in the desktop app.
+Let AI agents such as Claude Desktop and Cursor ask **[UniPublisher](https://unipublisher.app/en/)** to save drafts or publish articles to your channels — with you approving every request in the desktop app.
 
 > **The MCP server is built into the UniPublisher desktop app.**
 > This repository is documentation only. There is no npm package to install, and you should not run `npx unipublisher-mcp`: that name is not published by UniPublisher.
@@ -27,7 +27,7 @@ UniPublisher desktop app  ──►  you review and approve  ──►  your log
 
 - UniPublisher desktop **1.6.8 or later**, **running**. The adapter cannot start the app for you.
   - [Windows (.exe)](https://dl.unipublisher.app/download/latest)
-  - [Microsoft Store](https://apps.microsoft.com/detail/9njvc7lb0jwp?hl=en-us)
+  - [Microsoft Store](https://apps.microsoft.com/detail/9njvc7lb0jwp?hl=en-US)
   - [macOS (.dmg, Apple Silicon)](https://dl.unipublisher.app/download/mac)
 - An MCP client that supports stdio servers.
 - You are logged in to the channels you want to use, inside UniPublisher.
@@ -122,7 +122,7 @@ What an agent can actually use is whatever `list_supported_channels` returns: th
 
 ## Links
 
-- Website: https://unipublisher.app
+- Website: https://unipublisher.app/en/
 - Announcement: https://unipublisher.app/en/blog/mcp-server-official-release
 - Support: contact@unipublisher.app
 
