@@ -1,0 +1,33 @@
+{
+  "name": "unipublisher-mcp",
+  "version": "1.0.0",
+  "description": "Official Model Context Protocol (MCP) bridge for the UniPublisher desktop publishing workstation",
+  "main": "index.js",
+  "bin": {
+    "unipublisher-mcp": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node bin/cli.js --help"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "unipublisher",
+    "publishing",
+    "claude-desktop",
+    "cursor",
+    "automation",
+    "local-first"
+  ],
+  "author": "UniPublisher",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santiago0071/unipublisher-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/santiago0071/unipublisher-mcp/issues"
+  },
+  "homepage": "https://unipublisher.app"
+}
